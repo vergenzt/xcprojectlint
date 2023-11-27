@@ -1,0 +1,6 @@
+- id: xcprojectlint
+  name: Lint Xcode project files
+  entry: xcprojectlint # requires user to specify args
+  language: swift
+  files: '.*/project\.pbxproj$'
+  pass_filenames: false
